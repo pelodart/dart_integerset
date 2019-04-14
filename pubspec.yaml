@@ -1,0 +1,9 @@
+name: integerset
+version: 1.0.0
+description: >-
+  Implementation of a simple class IntegerSet in Dart
+author: PeLo
+dependencies:
+  sprintf: "^4.0.0"
+environment:
+  sdk: '>=2.0.0 <3.0.0'
