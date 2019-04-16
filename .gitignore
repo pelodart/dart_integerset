@@ -5,6 +5,9 @@
 .packages
 build/
 
+# Files and directories created by VS Code
+.vscode
+
 # If you're building an application, you may want to check-in your pubspec.lock
 pubspec.lock
 
