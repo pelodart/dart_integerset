@@ -11,7 +11,6 @@ Damit kommen wir auf die öffentliche Schnittstelle der ``IntegerSet``-Klasse zu
 | ``IntegerSet``   | ``IntegerSet();``<br/> Der Standardkonstruktor legt eine leere Menge an.|
 | ``IntegerSet.clone``     | ``IntegerSet.clone(IntegerSet set)``<br/> Dient zum Erstellen einer Kopie eines bereits existierenden ``IntegerSet``-Objekts. Dessen Referenz wird im Parameter ``set`` übergeben. |
 | ``IntegerSet.fromList``     | ``IntegerSet.fromList(List<int> elements);``<br/> Mit dem Parameter ``elements`` wird ein Array mit ganzen Zahlen übergeben. Vor der Aufnahme der Werte in das Mengenobjekt ist zu überprüfen, ob diese alle verschieden sind.|
-|
 
 Tabelle 1. Konstruktoren der Klasse ``IntegerSet``.
 
