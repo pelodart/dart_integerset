@@ -22,7 +22,6 @@ Die öffentlichen Methoden der Klasse ``IntegerSet`` finden Sie in Tabelle 2 vor
 | ``contains``   | ``bool contains(int n);``<br/> Prüft das Vorhandensein eines Elements *n* in der Menge. Der Rückgabewert true bedeutet „Element ist in der Menge vorhanden“, false das Gegenteil.|
 | ``insert``     | ``bool insert (int n);``<br/> Fügt eine ganze Zahl *n* in die Menge ein. Ist die Zahl in der Menge bereits enthalten, liefert Insert den Wert ``false`` zurück, andernfalls ``true``.|
 | ``remove``     | ``bool remove (int n);``<br/> Entfernt ein Element *n* aus der Menge. Ist die ganze Zahl in der Menge nicht enthalten, liefert Remove den Wert ``false`` zurück, andernfalls ``true``.|
-|
 
 Tabelle 2. Öffentliche Methoden der Klasse ``IntegerSet``.
 
@@ -32,7 +31,6 @@ Die zwei Eigenschaften (getter) ``size`` und ``isEmpty`` der Klasse ``IntegerSet
 |:-------------- |-----------------------------------------|
 | ``size``   | ``int get size``<br/> Liefert die Anzahl der in der Menge enthaltenen Elemente zurück. |
 | ``isEmpty``   | ``bool get isEmpty``<br/> Liefert bei einer leeren Menge ``true`` zurück, andernfalls ``false``.|
-|
 
 Tabelle 3. Öffentliche Eigenschaften (getter) der Klasse ``IntegerSet``.
 
@@ -43,7 +41,6 @@ Im Zusammenspiel mit dem Dart-Objektmodell sind minimal die ``toString``-Methode
 | ``==``-Operator | ``bool operator ==(Object other);``<br/> Testet zwei ``IntegerSet``-Objekte auf Gleichheit. Zu beachten ist: Die beiden Mengen ``{ 1, 3, 5 }`` und ``{ 5, 3, 1 }`` sind im Sinne der Mengentheorie gleich, die Reihenfolge ihrer Elemente spielt keine Rolle. |
 | ``toString``   | ``String toString();``<br/> Die Menge sollte im folgenden Format durch ein ``String``-Objekt dargestellt werden: <br/>``{1, 2, 3, 4, 5}``|
 | ``hashCode``   | ``int get hashCode``<br/> Der Einfachheit halber kann der Resultatwert von ``hashCode` aus der Basisklasse zurückgegeben werden. |
-|
 
 Tabelle 4. Kontrakt mit der Basisklasse ``Object``.
 
@@ -58,10 +55,8 @@ Für elementare mengentheoretische Operationen wie das Bilden einer Vereinigungs
 | ``>=``-Operator | ``bool operator >=(IntegerSet s);``<br/> Prüft, ob die Menge des aktuellen Objekts eine Obermenge des Objekts s ist (Rückgabewert ``true``) oder nicht (Rückgabewert ``false``). |
 | ``<``-Operator | ``bool operator <(IntegerSet s);``<br/> Prüft, ob die Menge des aktuellen Objekts in der Menge des Objekts s **echt** enthalten ist (Rückgabewert ``true``) oder nicht (Rückgabewert ``false``). |
 | ``>``-Operator | ``bool operator >(IntegerSet s);``<br/> Prüft, ob die Menge des aktuellen Objekts eine **echte** Obermenge des Objekts s ist (Rückgabewert ``true``) oder nicht (Rückgabewert ``false``). |
-|
 
 Tabelle 5. Mengentheoretische Operationen der Klasse ``IntegerSet``.
-
 
 
 ### Testrahmen
