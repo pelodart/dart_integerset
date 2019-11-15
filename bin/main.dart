@@ -1,4 +1,4 @@
-import 'lib/IntegerSet.dart';
+import '../lib/IntegerSet.dart';
 
 void main() {
   testingCtors();
